@@ -54,8 +54,8 @@ Output: null
 
 * Initialize a counter for level starting at 0
 * Check if a node exists -> if not return null
-* Check if node value equals the search value
-  * If value exists return counter for level
-  * If value does not exist increment level
-    * Check left side using incremented level
-    * Check right side using incremented level
+* Check node value and compare
+  * If value equals search return counter for level
+  * if value is not equal -> increment counter
+    * Check left side using incremented counter
+    * Check right side using incremented counter
